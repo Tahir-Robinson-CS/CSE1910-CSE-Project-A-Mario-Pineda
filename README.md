@@ -67,20 +67,20 @@ Cannot think of a project to work on? Here are some suggestions...
 ## Keeping up to date with the master repository
 To keep your local assignment repository up to date with your teacher's repository you need follow the following procedure from the terminal (shell in Linux and Git Shell in the Windows GitHub client).
 
-Step 1. The first time you are updating your repository you need to run the following command:
+**Step 1:** The first time you are updating your repository you need to run the following command:
 ```
 git remote add upstream https://github.com/mariopineda/CSE1910-CSE-Project-A
 ```
-Step 2. If you are using the same computer you do not have to do Step 1 in subsequent updates and you can skip right to Step 2. In this step you need to run the following two commands:
+**Step 2:** If you are using the same computer you do not have to do Step 1 in subsequent updates and you can skip right to Step 2. In this step you need to run the following two commands:
 ```
 git fetch upstream
 git merge upstream/master
 ```
-Step 3. Resolve possible merge conflicts.
+**Step 3:** Resolve possible merge conflicts.
 
-Step 4. Commit your repository.
+**Step 4:** Commit your repository.
 
-Step 5. Push your repository to GitHub.
+**Step 5:** Push your repository to GitHub.
 
 ## Building Web Pages
 This repository has been set up with a web page template. To access the source code for the web page template you need to change the current working branch to the gh-pages. You can access the web site through the browser at http://mariopineda.github.io/CSE1910-CSE-Project-A/.
