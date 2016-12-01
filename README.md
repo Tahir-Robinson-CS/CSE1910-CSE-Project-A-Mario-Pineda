@@ -1,4 +1,4 @@
-# README : CSE1910 - CSE Project A
+# README : CSE1910-CSE-Project-A-Mario-Pineda
 
 **This repository is a clone of [CSE1910-CSE-Project-A](https://github.com/mariopineda/CSE1910-CSE-Project-A) and is an exemplar of a major project developed by Dr. Pineda. This is not the template repository you would fork to set up the project repository for your own major project. The template repository is [CSE1910-CSE-Project-A](https://github.com/mariopineda/CSE1910-CSE-Project-A).**
 
