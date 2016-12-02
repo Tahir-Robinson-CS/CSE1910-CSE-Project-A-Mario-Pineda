@@ -9,7 +9,7 @@ Mad Math will be using a graphical interface with math problems appearing in a l
 ## Program Specifications
 _Fully describe your project below in one paragraph (minimum 5 sentences). Is it a game? A tool? If it is a game, what game genre is it?_
 
-Mad Math is an educational game in the same spirit of the commonly used mad minutes in elementary school. The aim with Mad Math is to allow students to practice their mental math skills in a competitive environment. Mad Math would allow the user to enter their name to be put on a lederboard of high achivements. The game will have multiple screens:
+Mad Math is an educational game in the same spirit of the commonly used mad minutes in elementary school. The aim with Mad Math is to allow students to practice their mental math skills in a competitive environment. Mad Math would allow the user to enter their name to be put on a leaderboard of high achivements. The game will have multiple screens:
 
 * Splash screen: Display the name of the game, some cool graphis and/or a catchy phrase.
 * Credit screen: Just credits and game info, e.g. licensing (Open Source), web page (GitHub repos), etc.
