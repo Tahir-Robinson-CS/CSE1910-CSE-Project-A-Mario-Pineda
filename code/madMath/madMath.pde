@@ -1,3 +1,14 @@
+//   __  __             _   __  __         _    _     
+//  |  \/  |           | | |  \/  |       | |  | |    
+//  | \  / |  __ _   __| | | \  / |  __ _ | |_ | |__  
+//  | |\/| | / _` | / _` | | |\/| | / _` || __|| '_ \ 
+//  | |  | || (_| || (_| | | |  | || (_| || |_ | | | |
+//  |_|  |_| \__,_| \__,_| |_|  |_| \__,_| \__||_| |_|
+//
+// Lead designer and programer: Dr. Pineda
+//
+// Mad Math is a competitive single player game to hone your mental math skills.
+
 static final int splashMode = 0;
 static final int setupMode = 1;
 static final int gameMode = 2;
