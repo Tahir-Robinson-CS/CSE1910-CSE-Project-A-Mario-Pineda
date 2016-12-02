@@ -39,7 +39,7 @@ Potential challenges:
 ## Time Line
 _Describe in detail what you will complete by the end of each week (end of Friday class)._
 
-* Week 1: Proposal and code 
+* Week 1: Proposal and preliminary code that generates a sequence of multiplations over a period of 1 minutes
 * Week 2: Prototype code that runs the basic game (single screen, see above for list of screens) with timer
 * Week 3: Splash screen, game set up screen, result screen
 * Week 4: Lederboard, possible, embedding on web page, test runs and debugging, aim is to have game run smoothly
