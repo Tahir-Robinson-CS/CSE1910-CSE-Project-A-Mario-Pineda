@@ -4,7 +4,7 @@
 ## Materials & Methods
 _What programing language will you be using? If you are not planing to use Processing explain why you chose a different programing language._
 
-Mad Math will be using a graphical interface with the math problems appearing in a large font and with a timer counting down on the screen. I will be using Processing as this is the perfect tool for this job as it is easy to generate animated graphics. Processing also allows programs to be embedded in webpages which is something I would like to try doing once I have the game running in Processing.
+Mad Math will be using a graphical interface with the math problems appearing in a large font and with a timer counting down on the screen. I will be using Processing as this is the perfect tool for this job as it is easy to generate animated graphics as well as export the project as a precompiled file. Processing also allows programs to be embedded in webpages which is something I would like to try doing once I have the game running in Processing.
 
 ## Program Specifications
 _Fully describe your project below in one paragraph (minimum 5 sentences). Is it a game? A tool? If it is a game, what game genre is it?_
