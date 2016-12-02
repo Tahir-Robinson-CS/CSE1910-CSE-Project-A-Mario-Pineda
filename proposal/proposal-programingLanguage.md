@@ -9,21 +9,21 @@ Mad Math will be using a graphical interface with the math problems appearing in
 ## Program Specifications
 _Fully describe your project below in one paragraph (minimum 5 sentences). Is it a game? A tool? If it is a game, what game genre is it?_
 
-Mad Math is an educational game in the same spirit of the commonly used mad minutes in elementary school. The aim with Mad Math is to allow students to practice their mental math skills in a competitive environment. Mad Math would allow the user to entir their name to be put on a lederboard of high achivements. The game would have multiple screens:
+Mad Math is an educational game in the same spirit of the commonly used mad minutes in elementary school. The aim with Mad Math is to allow students to practice their mental math skills in a competitive environment. Mad Math would allow the user to enter their name to be put on a lederboard of high achivements. The game will have multiple screens:
 
-* Splash screen: Display the name of the screen and some cool graphis or catchy phrase
+* Splash screen: Display the name of the game, some cool graphis and/or a catchy phrase.
 * Credit screen: Just credits and game info, e.g. licensing (Open Source), web page (GitHub repos), etc.
-* Set up screen: User gets to enter their name, set the difficulty and type of mathematical operations
-* Game screen: The actual game.
-* Result screen: Your score is displayed right after the game finished.
-* Lederboard screen: A screen showing the highest achievemnts in the different categories.
+* Set up screen: User gets to enter their name, set the game difficulty and type of mathematical operations.
+* Game screen: The actual game showing math problems, count down counter and the current score. The score is simply the number of correctly answered math problems.
+* Result screen: Your score is displayed right after the game finished and some sort of word of praise, encouragement or mockery will be displayed based on how the user performed.
+* Leaderboard screen: A screen showing the highest achievemnts in the different categories.
 
-On the set up screen the user would be able to enter his name (which would be used if he/she makes it onto the lederboard) and the user gets to choose the difficulty level. To set the difficulty the user would either be able to set the 
+To set the difficulty the user would either be able to set the 
 
 * type of mathematical operations to include (e.g. multiplication, division, addition, subtraction or a combination of various operations) and/or
-* number of operations to use, e.g. 5 * 5 represent a single mathematical operation, 5 * 5 + 5 represent two different mathematical operations and would require the correct order of operations to solve.
+* number of operations to use, e.g. 5 * 5 represent a single mathematical operation, 5 * 5 + 5 represent two different mathematical operations, 5 + 5 / 5 - 5 represent three mathematical operations. Any math problems involving more than one type if operation and would require the correct order of operations to solve (BEDMAS).
 
-Alternativelly the user could choose from pre-defined categories whe setting the difficulty level. The advantage with the first option would be that the user could customize the game session to fit what he/she would like to practice. The advantage of the second approach would be that the it would be easier to compare the results between different sessions and between users, e.g. for ranking on the lederboard.
+Alternativelly the user could choose from pre-defined categories whe setting the difficulty level. The advantage with the first option would be that the user could customize the game session to fit what he/she would like to practice. The advantage of the second approach would be that the it would be easier to compare the results between different sessions and between users, e.g. for ranking on the leaderboard.
 
 ## Potential Challenges
 
@@ -31,15 +31,16 @@ _Potential challenges. What are some of the challenges you think you will have t
 
 Potential challenges:
 * Text input, e.g. when asking the user for their name (Processing is not good at text input). Possible solution would be to display a keyboard (similar to the on screen keyboard of game consoles such as PS4 - [image here](http://www.unstoppablegamer.com/wp-content/uploads/2015/04/10915086_775004020681_9091626405983050562_o.jpg)) - this would be realtivelly simple to implement, but very tedious to code.
-* Saving game data, e.g. lederboard data, when running then game on different devices or online. Data would probably have to be saved and accessed somwhere online.
+* Saving game data, e.g. leaderboard data, when running then game on different devices or online. Data would probably have to be saved and accessed somewhere in the cloud (Google Drive, Dropbox, etc). 
 * Performance issue on Raspberry Pi. If running the game on a Raspberry Pi there is a risk that there may be lag. Solution: don't run it on a RPi.
-* Management of numerous screens, splash screen, game set up, the actual game, result screen, lederboard.
-* Ranking of players for the lederboard. How would users be ranked if they have played games with different difficulties? Are several different lederbords required?
+* Management of numerous screens, splash screen, game set up, the actual game, result screen, leaderboard. Possible solution: prototype a simple multi-screen code in Processing to iron out the kinks before implementing it in the fullblown program.
+* Ranking of players for the leaderboard. How would users be ranked if they have played games with different difficulties? Are several different leaderbords required? Possible solution: Have predefined games users can choose from that will be used for ranking, e.g. two term multiplication of numbers between 0 and 12.
+* The game should probably avoid problems that give decimal answers, e.g. problems such as 10 / 3. 
 
 ## Time Line
 _Describe in detail what you will complete by the end of each week (end of Friday class)._
 
-* Week 1: Proposal and preliminary code that generates a sequence of multiplations over a period of 1 minutes
+* Week 1: Proposal and preliminary code that generates a sequence of math problems over a period of 1 minutes. Implementing the timer.
 * Week 2: Prototype code that runs the basic game (single screen, see above for list of screens) with timer
 * Week 3: Splash screen, game set up screen, result screen
 * Week 4: Lederboard, possible, embedding on web page, test runs and debugging, aim is to have game run smoothly
