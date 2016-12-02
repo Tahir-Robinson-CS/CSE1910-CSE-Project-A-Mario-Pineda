@@ -11,12 +11,12 @@ _Fully describe your project below in one paragraph (minimum 5 sentences). Is it
 
 Mad Math is an educational game in the same spirit of the commonly used mad minutes in elementary school. The aim with Mad Math is to allow students to practice their mental math skills in a competitive environment. Mad Math would allow the user to enter their name to be put on a leaderboard of high achivements. The game will have multiple screens:
 
-* Splash screen: Display the name of the game, some cool graphis and/or a catchy phrase.
-* Credit screen: Just credits and game info, e.g. licensing (Open Source), web page (GitHub repos), etc.
-* Set up screen: User gets to enter their name, set the game difficulty and type of mathematical operations.
-* Game screen: The actual game showing math problems, count down counter and the current score. The score is simply the number of correctly answered math problems.
-* Result screen: Your score is displayed right after the game finished and some sort of word of praise, encouragement or mockery will be displayed based on how the user performed.
-* Leaderboard screen: A screen showing the highest achievemnts in the different categories.
+* __Splash screen:__ Display the name of the game, some cool graphis and/or a catchy phrase.
+* __Credit screen:__ Just credits and game info, e.g. licensing (Open Source), web page (GitHub repos), etc.
+* __Set up screen:__ User gets to enter their name, set the game difficulty and type of mathematical operations.
+* __Game screen:__ The actual game showing math problems, count down counter and the current score. The score is simply the number of correctly answered math problems.
+* __Result screen:__ Your score is displayed right after the game finished and some sort of word of praise, encouragement or mockery will be displayed based on how the user performed.
+* __Leaderboard screen:__ A screen showing the highest achievemnts in the different categories.
 
 To set the difficulty the user would either be able to set the 
 
