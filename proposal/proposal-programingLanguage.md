@@ -54,7 +54,7 @@ Basic functionality with multiple screens but without lederboard, online saving/
 ## 80%
 _What does 80% look like?   List some specific features of your project that are needed to reach 80%._
 
-Same as 60% but with the addition of basic lederboard functionality (data not saved online, whhich would mean the lederboard would only be saved locally).
+Same as 60% but with the addition of basic lederboard functionality (data not saved online, which would mean the lederboard would only be saved locally).
 
 ## 90+%
 _What does 90+% look like?   List some specific features of your project that are needed to reach 90+%._
