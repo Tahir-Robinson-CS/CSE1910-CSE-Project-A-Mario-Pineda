@@ -9,12 +9,24 @@ Mad Math will be using a graphical interface with the math problems appearing in
 ## Program Specifications
 _Fully describe your project below in one paragraph (minimum 5 sentences). Is it a game? A tool? If it is a game, what game genre is it?_
 
-Mad Math is an educational game in the same spirit of the commonly used mad minutes in elementary school. The aim with Mad Math is to allow students to practice their mental math skills in a competitive environment. Mad Math would allow the user to entir their name to be put on a lederboard of high achivements. Mad Math would also include a groovt splash screen, credits screen and the option to choose difficulty level, e.g. 
+Mad Math is an educational game in the same spirit of the commonly used mad minutes in elementary school. The aim with Mad Math is to allow students to practice their mental math skills in a competitive environment. Mad Math would allow the user to entir their name to be put on a lederboard of high achivements. The game would have multiple screens:
 
-* type of mathematical operations to include (e.g. multiplication, division, addition, subtraction or a combination of various operations), 
+* Splash screen: Display the name of the screen and some cool graphis or catchy phrase
+* Credit screen: Just credits and game info, e.g. licensing (Open Source), web page (GitHub repos), etc.
+* Set up screen: User gets to enter their name, set the difficulty and type of mathematical operations
+* Game screen: The actual game.
+* Result screen: Your score is displayed right after the game finished.
+* Lederboard screen: A screen showing the highest achievemnts in the different categories.
+
+On the set up screen the user would be able to enter his name (which would be used if he/she makes it onto the lederboard) and the user gets to choose the difficulty level. To set the difficulty the user would either be able to set the 
+
+* type of mathematical operations to include (e.g. multiplication, division, addition, subtraction or a combination of various operations) and/or
 * number of operations to use, e.g. 5 * 5 represent a single mathematical operation, 5 * 5 + 5 represent two different mathematical operations and would require the correct order of operations to solve.
 
+Alternativelly the user could choose from pre-defined categories whe setting the difficulty level. The advantage with the first option would be that the user could customize the game session to fit what he/she would like to practice. The advantage of the second approach would be that the it would be easier to compare the results between different sessions and between users, e.g. for ranking on the lederboard.
+
 ## Potential Challenges
+
 _Potential challenges. What are some of the challenges you think you will have to solve? How are you planing to solve them? What will you do if you are unable to solve some challenges?_
 
 Potential challenges:
@@ -22,6 +34,7 @@ Potential challenges:
 * Saving game data, e.g. lederboard data, when running then game on different devices or online. Data would probably have to be saved and accessed somwhere online.
 * Performance issue on Raspberry Pi. If running the game on a Raspberry Pi there is a risk that there may be lag. Solution: don't run it on a RPi.
 * Management of numerous screens, splash screen, game set up, the actual game, result screen, lederboard.
+* Ranking of players for the lederboard. How would users be ranked if they have played games with different difficulties? Are several different lederbords required?
 
 ## Time Line
 _Describe in detail what you will complete by the end of each week (end of Friday class)._
